@@ -1,0 +1,76 @@
+name: trashback
+description: TrashBack - Kelola Sampah, Raih Manfaat
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # App images
+    - assets/images/trash_bin.png
+    - assets/images/login_banner.png
+    - assets/images/recycle_logo_white.png
+    - assets/images/scooter_illustration.png
+    - assets/images/avatar.png
+    - assets/images/map_route.png
+    # Recycle items
+    - assets/images/bioplastic.png
+    - assets/images/biomass.png
+    - assets/images/biobattery.png
+    - assets/images/biogas.png
+    # Form field icons
+    - assets/icons/ic_email.png
+    - assets/icons/ic_password.png
+    - assets/icons/ic_person.png
+    - assets/icons/ic_phone_outline.png
+    - assets/icons/ic_location.png
+    # Social login icons
+    - assets/icons/ic_google.png
+    - assets/icons/ic_apple.png
+    - assets/icons/ic_phone.png
+    # Wallet action icons
+    - assets/icons/ic_receive.png
+    - assets/icons/ic_history.png
+    - assets/icons/ic_saved.png
+    # Feature grid icons
+    - assets/icons/ic_pickup.png
+    - assets/icons/ic_drop.png
+    - assets/icons/ic_article.png
+    - assets/icons/ic_video.png
+    - assets/icons/ic_mentor.png
+    # Bottom nav icons
+    - assets/icons/nav_home.png
+    - assets/icons/nav_home_active.png
+    - assets/icons/nav_history.png
+    - assets/icons/nav_history_active.png
+    - assets/icons/nav_cart.png
+    - assets/icons/nav_cart_active.png
+    - assets/icons/nav_profile.png
+    - assets/icons/nav_profile_active.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
